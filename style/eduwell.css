@@ -1,0 +1,11 @@
+.desc-01 {
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
+}
+
+.footoer {
+  background-image: url(https://templatemo.com/templates/templatemo_573_eduwell/assets/images/footer-bg.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=eduwell.css.map */
