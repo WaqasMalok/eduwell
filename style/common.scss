@@ -21,12 +21,30 @@ body{
     }
     &-02{
         font-size: 16px;
+        font-weight: 400;
     }
     &-03{
         font-size: 14px;
+        font-weight: 400;
     }
     &-04{
         font-size: 13px;
+        font-weight: 600;
+    }
+}
+.heading{
+    &-01{
+        font-size: clamp(4rem, 4vw, 3.5rem);
+        font-weight: 900;
+    line-height: 74px;
+
+    }
+    &-02{
+        font-size: 20px; 
+        font-weight: 800;
+    }
+    &-03{
+        font-size: 13px; 
         font-weight: 600;
     }
 }
