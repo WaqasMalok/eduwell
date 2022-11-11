@@ -11,10 +11,13 @@ $bg-color-liner:linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,15
 $bg-col-pink:#dc8cdb;
 $bg-col-white:#fff;
 
-
+body{
+    font-family:  'Open Sans', sans-serif;
+}
 .desc{
     &-01{
         font-size: 17px;
+        font-weight: 500;
     }
     &-02{
         font-size: 16px;
@@ -24,5 +27,6 @@ $bg-col-white:#fff;
     }
     &-04{
         font-size: 13px;
+        font-weight: 600;
     }
 }
