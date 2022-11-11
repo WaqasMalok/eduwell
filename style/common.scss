@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+$text-col-dark:#777777;
+$text-col-white:#fff;
+$text-col-black:#000;
+$text-col-pink:#dc8cdb;
+$text-col-haf-dark: #4a4a4a;
+
+// bg color 
+$bg-color-liner:linear-gradient(-145deg, rgba(219,138,222,1) 0%, rgba(246,191,159,1) 100%);
+$bg-col-pink:#dc8cdb;
+$bg-col-white:#fff;
+
+
+.desc{
+    &-01{
+        font-size: 17px;
+    }
+    &-02{
+        font-size: 16px;
+    }
+    &-03{
+        font-size: 14px;
+    }
+    &-04{
+        font-size: 13px;
+    }
+}
