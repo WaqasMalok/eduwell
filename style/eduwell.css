@@ -1,11 +1,30 @@
 .desc-01 {
-  font-size: clamp(1rem, 1.5vw, 1.2rem);
+  font-size: clamp(0.9rem, 1vw, 1rem);
 }
 
-.footoer {
-  background-image: url(https://templatemo.com/templates/templatemo_573_eduwell/assets/images/footer-bg.png);
-  background-position: center;
+.footer {
+  background-image: url("../bg/footer-bg.png");
+  background-position: center center;
+  background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
+  padding: 0px;
+  position: relative;
   height: 100%;
+}
+.footer-icon .nav-link {
+  width: 44px;
+  height: 44px;
+  display: inline-block;
+  text-align: center;
+  line-height: 44px;
+  background-color: #fff;
+  color: #dc8cdb;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+.footer-icon .fab, .footer-icon .fa {
+  content: "\f09e";
+}
+.footer-icon:hover {
+  background-color: #000;
 }/*# sourceMappingURL=eduwell.css.map */
