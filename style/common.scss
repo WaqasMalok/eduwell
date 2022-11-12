@@ -14,6 +14,7 @@ $bg-col-white:#fff;
 body{
     font-family:  'Open Sans', sans-serif;
 }
+// all description style 
 .desc{
     &-01{
         font-size: 17px;
@@ -32,6 +33,7 @@ body{
         font-weight: 600;
     }
 }
+// all heading style 
 .heading{
     &-01{
         font-size: clamp(4rem, 4vw, 3.5rem);
