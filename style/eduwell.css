@@ -1,3 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.desc-01 {
+  font-size: 17px;
+  font-weight: 500;
+}
+.desc-02 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.desc-03 {
+  font-size: 14px;
+  font-weight: 400;
+}
+.desc-04 {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.heading-01 {
+  font-size: clamp(4rem, 4vw, 3.5rem);
+  font-weight: 900;
+  line-height: 74px;
+}
+.heading-02 {
+  font-size: 20px;
+  font-weight: 800;
+}
+.heading-03 {
+  font-size: 13px;
+  font-weight: 600;
+}
+
 .desc-01 {
   font-size: clamp(0.9rem, 1vw, 1rem);
 }
@@ -10,24 +46,22 @@
   padding: 0px;
   position: relative;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .footer-icon .nav-link {
-  width: 44px;
-  height: 44px;
-  display: inline-block;
-  text-align: center;
-  line-height: 44px;
   background-color: #fff;
   color: #dc8cdb;
   border-radius: 50%;
   transition: all 0.5s;
+  padding: 10px 15px;
 }
-.footer-icon .fab, .footer-icon .fa {
-  padding: 20px;
-  border-radius: 50px;
+.footer-icon .nav-link .fab,
+.footer-icon .nav-link .fa {
   content: "\f09e";
 }
-.footer-icon .fab:hover, .footer-icon .fa:hover {
-  background-color: #000;
+.footer-icon .nav-link:hover {
+  background-color: #dc8cdb;
   color: #fff;
 }/*# sourceMappingURL=eduwell.css.map */
